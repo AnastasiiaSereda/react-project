@@ -1,9 +1,11 @@
 .inp__style {
+  z-index: 10;
   font-size: 16px;
   padding: 10px;
   margin-right: 5px;
   width: 300px;
   border: none;
+  background-color: RGBA(255, 101, 80, 0);
   border-bottom: 3px solid gray;
 }
 .inp__style:focus {
@@ -15,7 +17,7 @@
 .btn__reg {
 }
 .btn__in {
-  position: absolute;
+  z-index: 10;
   width: 176px;
   height: 44px;
   left: 115px;
@@ -33,7 +35,7 @@
   color: #ffffff;
 }
 .btn__reg {
-  position: absolute;
+  z-index: 10;
   width: 176px;
   height: 44px;
   left: 321px;
@@ -53,11 +55,11 @@
   color: #fc842d;
 }
 .s__login {
-  position: absolute;
+  margin-top: 71px;
+  z-index: 10;
   width: 240px;
   height: 16px;
-  left: 115px;
-  top: 445px;
+
   font-family: Verdana;
   font-style: normal;
   font-weight: bold;
@@ -67,12 +69,10 @@
   color: #9b9faa;
 }
 .s__reg {
-  position: absolute;
+  z-index: 10;
   width: 240px;
   height: 16px;
-  left: 115px;
-  top: 520.5px;
-
+  margin-top: 21px;
   font-family: Verdana;
   font-style: normal;
   font-weight: bold;
@@ -83,7 +83,7 @@
   color: #9b9faa;
 }
 .login_text {
-  position: absolute;
+  z-index: 10;
   width: 48px;
   height: 12px;
   left: 115px;
@@ -98,4 +98,19 @@
   text-transform: uppercase;
 
   color: #fc842d;
+}
+.form__s {
+  z-index: 10;
+  display: flex;
+  margin-top: 362px;
+  margin-left: 115px;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+.btn_block_flex {
+  width: 370px;
+  justify-content: space-between;
+  margin-top: 79px;
+  display: flex;
 }
