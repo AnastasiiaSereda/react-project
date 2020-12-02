@@ -72,7 +72,7 @@
     width: 100%;
     border: none;
     background-color: RGBA(255, 101, 80, 0);
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid rgb(219, 214, 214);
   }
   .inp__style:focus {
     border: none;
